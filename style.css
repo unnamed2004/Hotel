@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+
+}
+body {
+  height: 2000px;
+  background-color: #f1f1f1;
+}
+.home-content {
+  height: 90vh;
+  background-image: url("/Hotel/img/hotel.jpg");
+
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+  
+}
+.home-form {
+  background-color: white;
+  width: 48%;
+  height: 45vh;
+}
+
+.home-form h1 {
+  background-color: #f44336;
+  color: whitesmoke;
+  width: 94.5%;
+  padding: 18px;
+  font-family: 	"Courier New";
+}
+
+input[type="date"],
+input[type="number"] {
+  padding: 10px;
+  width: 240px;
+}
+.form-content {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+form {
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-form button {
+  padding: 10px;
+  background-color: grey;
+  border: none;
+  font-size: 1em;
+  color: white;
+  font-weight: 800;
+  margin-right: 400px;
+  font-family: " Search availability";
+}
+
+.home-form button:hover {
+  background-color: lightgrey;
+}
+
+.home-form {
+  position: absolute;
+  left: 1%;
+  top: 30%;
+}
+.bolo {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+img {
+  vertical-align: middle;
+}
+
+ul {
+  padding-left: 0;
+  display: flex;
+  list-style-type: none;
+  font-size: 1.4em;
+
+}
+li {
+  padding: 10px;
+}
+li:hover {
+  background-color: gray;
+}
+#logo{
+    background-color: #f44336;
+    color: white;
+    font-family:"Courier New";
+}
+#logo:hover{
+    background-color: gray;
+    color: black;
+  
+}
+#Now{
+background-color: whitesmoke;
+}
+#Now:hover{
+    background-color: gray;
+}
+h2{
+font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+p{
+
+margin-top: 20px;
+}
+.room{
+  display: flex;
+  justify-content: space-around;
+}
+#btn{
+    width: 200px;
+    
+    padding: 10px 30px 10px 30px; 
+    background-color: black;
+    color: white;
+}
+.check{
+    width: 15% ;
+    padding: 10px;
+}
+.all
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn:hover{
+background-color: gray;
+}
+
+.roompage{
+
+  border: 1px solid white;
+
+  width: 30%;
+}
+#page{
+  width: 100%;
+}
+.hama{
+  width: 98%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.roome{
+  border: 1px solid white;
+  width: 30%;
+}
+.rooms{
+  border: 1px solid white;
+  width: 30%;
+}
+.romm{
+  margin-left: 15px;
+}
+#Choose{
+  background-color: black ;
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin:20px 0 10px 15px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.hama p  {
+  color:gray;
+  font-size: 1em;
+
+}
+.hama h5 ,h6{
+  font-size: 1.1em;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 400;
+
+}
+.about{
+  width: 40%;
+}
+.about h3{
+  font-size: 2em;
+  
+}
+#map{
+  width: 70%;
+  height: 70vh;
+}
+.ui{
+  margin-top: 40px;
+  margin-left: 15px;
+  width: 100%;
+  display: flex;
+}
+.text3{
+  background-color: white;
+
+}
+.about p{
+  font-size: 1.4em;
+}
+.about h2{
+  font-size: 1em;
+}
+#ol{
+  color: #f44336;
+}
+#pl
+{
+  color: #f44336;
+}
+.mapthis{
+  display: flex;
+  justify-content: space-evenly ;
+}
+#yl{
+ color: black;
+  text-decoration: none;
+}
+#fa{
+ color: #f44336;
+}
+.droz{
+  background-color: #f44336;
+padding: 20px;
+}
+#i{
+  background-color: rgb(250, 36, 36);
+  padding: 15px;
+}
+.droz p{
+  color: white;
+}
+.our h1{
+      margin-top: 20px;
+      margin-left: 15px;
+}
+#imga{
+  width: 100%; 
+}
+
+.right img{
+  width: 48.1%;
+  margin: 5px 10px 10px 0;
+}
+.all-img{
+  display: flex;
+  justify-content: space-around;
+}
+
+.left , .right{
+  width: 48%;
+}
+.our p{
+  margin: 20px 0 20px 15px;
+}
